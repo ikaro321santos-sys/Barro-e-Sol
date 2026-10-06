@@ -8,6 +8,8 @@
   --clay-dark:#8A3722;
   --line:#C9B48D;
 }
+.btn-light{ background: var(--sand); color: var(--ink); }
+.btn-light:hover{ background: var(--sand-dark); }
 
 *{ box-sizing: border-box; }
 
@@ -63,7 +65,6 @@ a:hover{ color: var(--clay-dark); }
 .product .illustration{ background: #3B2C1E; border-color: #4A3B2A; }
 .product .illustration svg{ width: 45%; }
 
-/* Navegação */
 .navbar{
   display: flex;
   align-items: center;
@@ -81,7 +82,6 @@ a:hover{ color: var(--clay-dark); }
 .navbar nav{ display: flex; gap: 40px; font-size: 15px; font-weight: 500; }
 .navbar nav a{ text-decoration: none; color: var(--ink); }
 
-/* Hero */
 .hero{
   display: flex;
   gap: 64px;
@@ -95,17 +95,14 @@ a:hover{ color: var(--clay-dark); }
 .hero-actions{ display: flex; gap: 16px; flex-wrap: wrap; }
 .hero-media{ flex: 1 1 380px; height: 420px; }
 
-/* Seções genéricas */
 section{ padding: 90px 8vw; }
 .section-title{ font-weight: 600; font-size: 34px; }
 
-/* História */
 .story{ display: flex; gap: 64px; align-items: center; background: var(--sand-dark); flex-wrap: wrap; }
 .story-media{ flex: 1 1 320px; height: 340px; }
 .story-text{ flex: 1 1 320px; display: flex; flex-direction: column; gap: 20px; }
 .story-text p{ margin: 0; font-size: 16px; line-height: 1.7; color: var(--ink-soft); }
 
-/* Processo */
 .process{ display: flex; flex-direction: column; gap: 48px; }
 .process .section-title{ text-align: center; }
 .process-grid{ display: flex; gap: 40px; flex-wrap: wrap; }
@@ -114,7 +111,6 @@ section{ padding: 90px 8vw; }
 .process-step .step-title{ font-weight: 600; font-size: 17px; }
 .process-step p{ margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
 
-/* Coleção */
 .collection{ background: var(--ink); }
 .collection .section-title{ color: var(--sand); text-align: center; }
 .collection-grid{ display: flex; gap: 32px; flex-wrap: wrap; margin-top: 48px; }
@@ -124,7 +120,6 @@ section{ padding: 90px 8vw; }
 .product-price{ color: #C9B48D; font-size: 15px; }
 .collection-cta{ display: flex; justify-content: center; margin-top: 40px; }
 
-/* Depoimento */
 .testimonial{ display: flex; justify-content: center; }
 .testimonial blockquote{
   max-width: 680px; margin: 0; text-align: center;
@@ -133,7 +128,6 @@ section{ padding: 90px 8vw; }
 }
 .testimonial cite{ display: block; margin-top: 16px; font-size: 14px; color: #6B5A42; font-style: normal; }
 
-/* Rodapé */
 footer{
   padding: 60px 8vw;
   background: var(--sand-dark);

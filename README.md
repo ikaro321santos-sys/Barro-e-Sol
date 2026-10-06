@@ -16,7 +16,7 @@ Barro & Sol is a fictional handmade ceramics brand, created for this assignment 
 - Visual hierarchy, typography, and an intentional color palette
 - Project organization across separate files (HTML / CSS)
 
-The brand concept was inspired by the São Francisco River valley, the region where Petrolina, PE is located, combining the aesthetics of clay, river, and sun that define Brazil's northeastern backlands (the Sertão).
+The brand concept was inspired by the São Francisco River valley, the region where Petrolina, in the state of Pernambuco, Brazil is located, combining the aesthetics of clay, river, and sun that define Brazil's northeastern backlands (the Sertão).
 
 ## Technologies used
 

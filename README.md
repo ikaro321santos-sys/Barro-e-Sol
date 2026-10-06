@@ -1,59 +1,59 @@
 # Barro & Sol — Landing Page
 
-Projeto de front-end desenvolvido como exercício prático do curso de **Análise e Desenvolvimento de Sistemas (ADS)**, com foco em HTML5, CSS3 e boas práticas de design de interface.
+Front-end project developed as a practical exercise for the **Systems Analysis and Development (ADS)** program, focused on HTML5, CSS3, and good interface design practices.
 
-**Aluno:** Ikaro Cauê Carvalho dos Santos
-**Curso:** Tecnólogo em Análise e Desenvolvimento de Sistemas — SENAC-PE
+**Student:** Ikaro Cauê Carvalho dos Santos
+**Program:** Associate Degree in Systems Analysis and Development — SENAC-PE
 
 ---
 
-## Sobre o projeto
+## About the project
 
-Barro & Sol é uma marca fictícia de cerâmica artesanal, criada para este trabalho como estudo de caso. A proposta foi desenvolver uma landing page completa para uma loja online, aplicando conceitos de:
+Barro & Sol is a fictional handmade ceramics brand, created for this assignment as a case study. The goal was to design a complete landing page for an online store, applying concepts such as:
 
-- Estruturação semântica de página com HTML5
-- Estilização e responsividade com CSS3 (Flexbox)
-- Hierarquia visual, tipografia e paleta de cores intencional
-- Organização de projeto em arquivos separados (HTML / CSS)
+- Semantic page structure with HTML5
+- Styling and responsiveness with CSS3 (Flexbox)
+- Visual hierarchy, typography, and an intentional color palette
+- Project organization across separate files (HTML / CSS)
 
-O conceito da marca foi inspirado no Vale do São Francisco, região onde fica Petrolina-PE, unindo a estética do barro, do rio e do sol característicos do Sertão nordestino.
+The brand concept was inspired by the São Francisco River valley, the region where Petrolina, PE is located, combining the aesthetics of clay, river, and sun that define Brazil's northeastern backlands (the Sertão).
 
-## Tecnologias utilizadas
+## Technologies used
 
-- **HTML5** — estrutura semântica (`header`, `main`, `section`, `footer`)
-- **CSS3** — Flexbox, variáveis CSS (custom properties), responsividade
-- **Google Fonts** — tipografia (Fraunces + Libre Franklin)
+- **HTML5** — semantic structure (`header`, `main`, `section`, `footer`)
+- **CSS3** — Flexbox, CSS custom properties, responsiveness
+- **Google Fonts** — typography (Fraunces + Libre Franklin)
 
-Nenhum framework ou biblioteca externa foi utilizado: o objetivo do exercício foi praticar HTML e CSS puros.
+No frameworks or external libraries were used: the goal of this exercise was to practice plain HTML and CSS.
 
-## Estrutura de pastas
+## Folder structure
 
 ```
 barro-e-sol/
-├── index.html          # estrutura da página
+├── index.html          # page structure
 ├── css/
-│   └── style.css        # estilos, cores e responsividade
-└── README.md             # este arquivo
+│   └── style.css        # styles, colors, and responsiveness
+└── README.md             # this file
 ```
 
-## Como executar
+## How to run
 
-Não é necessário nenhum servidor ou instalação. Basta abrir o arquivo `index.html` diretamente no navegador, ou publicar a pasta em qualquer serviço de hospedagem estática (ex: GitHub Pages).
+No server or installation is required. Simply open the `index.html` file directly in your browser, or publish the folder on any static hosting service (e.g., GitHub Pages).
 
-## Paleta e tipografia
+## Palette and typography
 
-| Elemento         | Valor                          |
-|-------------------|---------------------------------|
-| Fundo (areia)     | `#EDE4D3`                      |
-| Texto principal   | `#2B1F16`                      |
-| Acento (barro)    | `#A8452E`                      |
-| Fonte de destaque | Fraunces (serifada)             |
-| Fonte de texto    | Libre Franklin (sem serifa)     |
+| Element            | Value                            |
+|----------------------|-----------------------------------|
+| Background (sand)    | `#EDE4D3`                        |
+| Main text             | `#2B1F16`                        |
+| Accent (clay)         | `#A8452E`                        |
+| Display font           | Fraunces (serif)                 |
+| Body font              | Libre Franklin (sans-serif)      |
 
-## Observações
+## Notes
 
-As imagens dos produtos e da oficina estão representadas por placeholders identificados no próprio layout, já que este é um projeto conceitual sem fotos reais de um negócio existente. Em uma aplicação real, esses espaços seriam substituídos por fotografias do produto.
+The product and workshop images are represented by hand-drawn SVG illustrations, since this is a conceptual project without real photos from an existing business. In a real-world application, these spaces would be replaced with actual product photography.
 
 ---
 
-Projeto desenvolvido para fins de aprendizado e portfólio pessoal.
+Project developed for learning purposes and personal portfolio use.
